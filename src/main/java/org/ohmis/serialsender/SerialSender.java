@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class SerialSender {
 
-    private static String portName = "/dev/ttyUSB0"; // Change this to the appropriate port name
+    private static String portName = "com5"; // Change this to the appropriate port name
     private static int baudRate = 9600; // Change this to the desired baud rate
 
     public static void main(String[] args) {
